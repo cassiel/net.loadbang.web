@@ -1,0 +1,32 @@
+<project name="distribution" default="dist" basedir=".">
+  <description>
+    Build distribution for GitHub.
+  </description>
+
+  <property name="repo" location="${user.home}/.m2/repository" />
+
+  <target name="dist">
+    <mkdir dir="distribution" />
+
+    <zip destfile="distribution/distribution.zip">
+      <zipfileset dir="src" prefix="src" />
+      <zipfileset dir="examples" prefix="examples" />
+
+      <zipfileset dir="${repo}/org/mortbay/jetty/jetty/6.1.26"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/org/mortbay/jetty/jetty-util/6.1.26"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/net/loadbang/net.loadbang.lib/1.8.0"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/log4j/log4j/1.2.16"
+                  includes="*.jar"
+      />
+    </zip>
+  </target>
+</project>

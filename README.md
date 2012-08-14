@@ -30,8 +30,9 @@ These files are all included in `distribution.zip` in
 ## Usage
 
 The directory `examples` contains Max patchers (written originally for
-Max 4!) which bring up the web server. `WebServer.mxt` is a good place
-to start.
+Max 4!) which bring up the web server. `examples/WebServer.mxt` is a
+good place to start, but the real party is happening in
+`examples/max5/cassiel.JWebFun.maxpat`.
 
 ## Building
 

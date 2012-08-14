@@ -6,11 +6,15 @@
   <property name="repo" location="${user.home}/.m2/repository" />
 
   <target name="dist">
-    <mkdir dir="distribution" />
+    <mkdir dir="target" />
 
-    <zip destfile="distribution/distribution.zip">
+    <zip destfile="target/distribution.zip">
       <zipfileset dir="src" prefix="src" />
       <zipfileset dir="examples" prefix="examples" />
+
+      <zipfileset dir="${repo}/net/loadbang/net.loadbang.web/0.0.1-SNAPSHOT"
+                  includes="*.jar"
+      />
 
       <zipfileset dir="${repo}/org/mortbay/jetty/jetty/6.1.26"
                   includes="*.jar"
@@ -20,11 +24,27 @@
                   includes="*.jar"
       />
 
+      <zipfileset dir="${repo}/jetty/jsp/2.1-6.0.2"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/jetty/jsp-api/2.1-6.0.2"
+                  includes="*.jar"
+      />
+
       <zipfileset dir="${repo}/net/loadbang/net.loadbang.lib/1.8.0"
                   includes="*.jar"
       />
 
       <zipfileset dir="${repo}/log4j/log4j/1.2.16"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/org/apache/ant/ant/1.8.4"
+                  includes="*.jar"
+      />
+
+      <zipfileset dir="${repo}/org/apache/ant/ant-launcher/1.8.4"
                   includes="*.jar"
       />
     </zip>

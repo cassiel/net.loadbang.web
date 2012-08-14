@@ -11,12 +11,18 @@ can create attribute bindings for JSPs.
 
 ## Installation
 
-The following files are needed in Max's `Cycling '74/java/lib` directory:
+The following files (there are rather a lot of them) are needed in Max's
+`Cycling '74/java/lib` directory:
 
 - `net.loadbang.web-0.0.1-SNAPSHOT.jar`
 - `jetty-6.1.26.jar`
 - `jetty-util-6.1.26.jar`
 - `net.loadbang.lib-1.8.0.jar`
+- `jsp-2.1-6.0.2.jar`
+- `jsp-api-2.1-6.0.2.jar`
+- `ant-1.8.4.jar`
+- `ant-launcher-1.8.4.jar`
+- `log4j-1.2.16.jar`
 
 These files are all included in `distribution.zip` in
 [downloads][downloads], alongside the test patchers.

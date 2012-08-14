@@ -35,20 +35,6 @@ since they aren't centrally hosted. The `max.jar` file also needs to be
 pushed into a local Maven repository. See the `README` for
 [net.loadbang.lib][loadbang-lib] for details.
 
-
-
-
-
-- `max.jar` installation dance
-
-- use of `mvn install`
-
-- example patchers
-
-- JARs needed: jetty, jetty-util, servlet-api
-
-- JSP support not back up and running yet (presumably needs Jasper)
-
 ## License
 
 Distributed under the [GNU General Public License][gpl].
@@ -59,3 +45,4 @@ Copyright (C) 2012 Nick Rothwell.
 [jetty]: http://jetty.codehaus.org/jetty/
 [loadbang-lib]: https://github.com/cassiel/net.loadbang.lib
 [downloads]: https://github.com/cassiel/net.loadbang.web/downloads
+[gpl]: http://www.gnu.org/copyleft/gpl.html

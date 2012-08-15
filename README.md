@@ -1,6 +1,6 @@
 # net.loadbang.web
 
-![Jetty logo][jetty-logo]
+![Screengrab][grab]
 
 This package is an embedded web server for MaxMSP, written in Java and
 using [Jetty][jetty]. The system supports static data and JSPs. The
@@ -48,7 +48,7 @@ Distributed under the [GNU General Public License][gpl].
 
 Copyright (C) 2012 Nick Rothwell.
 
-[jetty-logo]: https://github.com/downloads/cassiel/net.loadbang.web/jetty_logo.png
+[grab]: https://github.com/downloads/cassiel/net.loadbang.web/grab.png
 [jetty]: http://jetty.codehaus.org/jetty/
 [loadbang-lib]: https://github.com/cassiel/net.loadbang.lib
 [downloads]: https://github.com/cassiel/net.loadbang.web/downloads

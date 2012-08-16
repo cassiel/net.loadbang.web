@@ -48,8 +48,9 @@ Thanks to [Adam Murray][adam] for contributions to the JSP support.
 
 ## PS
 
-Because somebody is bound to ask: here's what it all looke like in
-Max for Live:
+Because somebody is bound to ask: here's what it all looks like in Max
+for Live, for when you absolutely have to run a web server inside your
+Live session:
 
 ![Web for Max for Live][m4l]
 
@@ -64,5 +65,5 @@ Copyright (C) 2012 Nick Rothwell.
 [loadbang-lib]: https://github.com/cassiel/net.loadbang.lib
 [downloads]: https://github.com/cassiel/net.loadbang.web/downloads
 [adam]: http://compusition.com/web/about
-[m4l]: https://github.com/downloads/cassiel/net.loadbang.web/jweb-m4l.png
+[m4l]: https://github.com/downloads/cassiel/net.loadbang.web/jweb-m4lx.png
 [gpl]: http://www.gnu.org/copyleft/gpl.html

@@ -46,6 +46,13 @@ pushed into a local Maven repository. See the `README` for
 
 Thanks to [Adam Murray][adam] for contributions to the JSP support.
 
+## PS
+
+Because somebody is bound to ask: here's what it all looke like in
+Max for Live:
+
+![Web for Max for Live][m4l]
+
 ## License
 
 Distributed under the [GNU General Public License][gpl].
@@ -57,4 +64,5 @@ Copyright (C) 2012 Nick Rothwell.
 [loadbang-lib]: https://github.com/cassiel/net.loadbang.lib
 [downloads]: https://github.com/cassiel/net.loadbang.web/downloads
 [adam]: http://compusition.com/web/about
+[m4l]: https://github.com/downloads/cassiel/net.loadbang.web/jweb-m4l.png
 [gpl]: http://www.gnu.org/copyleft/gpl.html

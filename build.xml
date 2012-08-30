@@ -20,6 +20,10 @@
                   includes="*.jar"
       />
 
+      <zipfileset dir="${repo}/org/mortbay/jetty/servlet-api/2.5-20081211"
+                  includes="*.jar"
+      />
+
       <zipfileset dir="${repo}/org/mortbay/jetty/jetty-util/6.1.26"
                   includes="*.jar"
       />

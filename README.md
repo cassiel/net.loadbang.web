@@ -20,6 +20,7 @@ The following files (there are rather a lot of them) are needed in Max's
 - `net.loadbang.lib-1.8.0.jar`
 - `jsp-2.1-6.0.2.jar`
 - `jsp-api-2.1-6.0.2.jar`
+- `servlet-api-2.5-20081211.jar`
 - `ant-1.8.4.jar`
 - `ant-launcher-1.8.4.jar`
 - `log4j-1.2.16.jar`
